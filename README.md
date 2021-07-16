@@ -1,2 +1,2 @@
-# SergeyKorolyov96.github.io
+# Сергей Королёв
 Мой первый сайт
