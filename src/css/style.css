@@ -80,7 +80,7 @@ nav{
     border-radius: 50%;
     height: 180px;
     width: 180px;
-    margin: 70px 0px 30px 635px;
+    margin: 80px 0px 30px 635px;
 }
 .main1 p{
     text-align: center;
@@ -118,7 +118,7 @@ nav{
     height: 150px;
     width: 200px;
     text-align: center;
-    margin: 150px 0px 0px 120px;
+    margin: 150px 0px 0px 130px;
 }
 .item_skills img{
     height: 50px;
@@ -157,21 +157,21 @@ nav{
 .main3 p{
     height: 100%;
     width: 600px;
-    margin: 70px 0px 50px 520px;
+    margin: 70px 0px 50px 510px;
 }
 
 .item_skills1{
     height: 50px;
-    width: 250px;
+    width: 300px;
     text-align: left;
-    margin: 550px 0px 0px 160px;
+    margin: 550px 0px 0px 90px;
 }
 
 .item_skills2{
     height: 50px;
     width: 200px;
     text-align: left;
-    margin: 20px 0px 0px 160px;
+    margin: 20px 0px 0px 90px;
 }
 .item_skills3{
     float: left;
@@ -183,36 +183,38 @@ nav{
 .item_skills3 p{
     float: left;
     height: 20px;
-    width: 800px;
+    width: 900px;
     line-height: 20px;
     text-align: left;
-    margin: 10px 0px 0px 100px;
+    margin: 10px 0px 0px 150px;
 }
 .item_skills1 h3{
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: #263244;
-    margin: 0px 0px 10px 100px;
+    margin: 0px 0px 10px 160px;
     font-weight: 500;
 }
 .item_skills2 h3{
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: #263244;
-    margin: 0px 0px 10px 100px;
+    margin: 0px 0px 10px 160px;
     font-weight: 500;
 }
 .main3 p1{
     font-family: Arial, sans-serif;
     font-size: 15px;
     color: #263244;
-    margin: 0px 0px 10px 100px;
+    margin: 0px 0px 0px 160px;
+
 }
 .main3 h4{
+    width: 200px;
     font-family: Arial, sans-serif;
     font-size: 18px;
     color: #263244;
-    margin: -20px 0px 0px 100px;
+    margin: -20px 0px 0px 150px;
     font-weight: 500;
 }
 .main3 input{
@@ -223,7 +225,7 @@ nav{
     font-weight: 600;
     text-align: center;
     border: 2px solid #6f707e;
-    margin: 30px 0px 0px 260px;
+    margin: 30px 0px 0px 250px;
     border-radius: 5px;
     padding: 5px 40px;
     color: white;
@@ -279,7 +281,7 @@ nav{
     height: 200px;
     width: 210px;
     text-align: center;
-    margin: 200px 0px 0px 130px;
+    margin: 200px 0px 0px 120px;
 }
 .item-skills img{
     height: 50px;
@@ -320,7 +322,7 @@ nav{
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin: 100px 0px 30px 620px;
+    margin: 100px 0px 30px 625px;
 }
 .main6 p{
     float: left;
@@ -342,47 +344,92 @@ nav{
     font-weight: 400;
 }
 .main6 input{
+    display: block;
     float: left;
     height: 20px;
     width: 20px;
-    display: block;
-    margin: 50px 0px 0px 100px;
+    margin: 50px 0px 0px 10px;
     
 }
+
 footer{
-    height: 100%;
+    height: 110%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 20%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%209.png") center/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 16%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%209.png") center/cover no-repeat;
 }
 footer h2{
-    float: left;
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     color: white;
-    margin: 50px 0px 0px 600px;
+    margin: 50px 0px 0px 0px;
+    padding: 70px 0px 0px 0px;
+}
+.main7 p{
+    float: left;
+    height: 50px;
+    width: 800px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    margin: 60px 0px 0px 330px;
 }
 .item_skills9 img{
-    float: left;
-    height: 20px;
-    width: 20px;
-    margin: 250px 0px 50px 100px;
+    height: 30px;
+    width: 30px;
+    margin: 150px 0px 30px -820px;
 }
-
-.item_skills12 h3{
-    float: left;
+.item_skills9 h4{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
-    color: white;
-    margin: 0px 0px 0px 500px;
-}
-.main7 h4{
-    float: left;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    font-size: 18px;
     color: white;
     height: 50px;
     width: 150px;
-    margin: 70px 0px 50px 100px;;
+    margin: 0px 0px 50px 240px;;
+}
+
+.item_skills10 img{
+    height: 40px;
+    width: 50px;
+    margin: -165px 0px 0px 705px;
+}
+
+.item_skills10 h4{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin: -115px 0px 50px 630px;;
+}
+.item_skills11 img{
+    height: 40px;
+    width: 50px;
+    margin: -215px 0px 0px 1115px;
+}
+.item_skills11 h4{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin: -165px 0px 50px 1070px;;
+}
+.item_skills12 h3{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    margin: -150px 0px 0px 20px;
+}
+.main7 input{
+    display: block;
+    float: left;
+    margin: 50px 0px 0px 100px;
+    height: 50px;
+    width: 200;
+    border-radius: 5px;
 }
