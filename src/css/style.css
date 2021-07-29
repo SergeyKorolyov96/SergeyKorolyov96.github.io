@@ -343,13 +343,13 @@ nav{
     margin: 50px 0px 0px 0px;
     font-weight: 400;
 }
-.main6 input{
-    display: block;
-    float: left;
+.input{
     height: 20px;
     width: 20px;
-    margin: 50px 0px 0px 10px;
-    
+    margin: 100px 0px 0px 300px;
+}
+.input 1{
+    margin: 50px 100px;
 }
 
 footer{
@@ -427,9 +427,11 @@ footer h2{
 }
 .main7 input{
     display: block;
-    float: left;
-    margin: 50px 0px 0px 100px;
     height: 50px;
     width: 200;
     border-radius: 5px;
+    margin: 50px 100px;
+}
+.input first{
+    margin: 50px 100px;
 }
