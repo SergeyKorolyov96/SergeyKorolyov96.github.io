@@ -343,15 +343,31 @@ nav{
     margin: 50px 0px 0px 0px;
     font-weight: 400;
 }
+
 .input{
     height: 20px;
     width: 20px;
     margin: 100px 0px 0px 300px;
 }
-.input 1{
-    margin: 50px 100px;
+div .five{
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin: 200px 0px 50px 650px;
+    padding: 10px 10px;
 }
-
+div .six{
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin: -65px 0px 50px 720px;
+}
+div .seven{
+    display: block;
+    height: 15px;
+    width: 15px;
+    margin: -65px 0px 50px 790px;
+}
 footer{
     height: 110%;
     width: 100%;
@@ -429,9 +445,44 @@ footer h2{
     display: block;
     height: 50px;
     width: 200;
-    border-radius: 5px;
     margin: 50px 100px;
 }
-.input first{
-    margin: 50px 100px;
+form .first{
+    display: block;
+    font-family: Arial, sans-serif;
+    height: 40px;
+    width: 400px;
+    margin: 20px 0px 0px 250px;
+    font-size: 16px;
+    padding: 10px 0px 10px 20px;
+}
+form .two{
+    display: block;
+    font-family: Arial, sans-serif;
+    height: 40px;
+    width: 400px;
+    margin: -40px 0px 0px 800px;
+    font-size: 16px;
+    padding: 10px 0px 10px 20px;
+}
+form .message{
+    display: block;
+    font-family: Arial, sans-serif;
+    height: 150px;
+    width: 950px;
+    margin: 20px 0px 0px 250px;
+    font-size: 16px;
+    padding: 10px 0px 10px 20px;
+}
+form .send{
+    display: block;
+    font-family: Arial, sans-serif;
+    height: 40px;
+    width: 200px;
+    margin: 30px 0px 0px 600px;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    border: 3px solid #fff;
+    font-size: 16px;
 }
