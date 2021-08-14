@@ -195,26 +195,25 @@ main{
 .main1{
     height: 100%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 10%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg") left/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 20%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg") left/cover no-repeat;
+}
+.row2{
+    text-align: center;
 }
 .main1 h2{
     font-family: Arial, sans-serif;
-    text-align: center;
     font-size: 30px;
     color: #263244;
-    margin: 70px 0px 0px 0px;
     font-weight: 600;
 }
-.col img{
-    display: block;
+.main1 img{
     border: 1px solid none;
     border-radius: 50%;
-    position: absolute;
     height: 180px;
     width: 180px;
-    align-items: center;
+    margin: 100px 0px 0px 0px;
 }
-.col p{
+.main1 p{
     text-align: center;
     font-size: 15px;
     color: #3f495a;
@@ -225,7 +224,6 @@ main{
     text-align: center;
     border: 2px solid #6f707e;
     background: none;
-    margin: 60px 0px 0px 565px;
     border-radius: 5px;
     padding: 5px 14px 5px 30px;
     font-size: 18px;
@@ -244,7 +242,11 @@ main{
 .main2{
     height: 100%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 25%/ 71px 5px no-repeat, url("../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg") center/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 30%/ 71px 5px no-repeat, url("../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg") center/cover no-repeat;
+}
+.row3{
+    display: inline-flex;
+    text-align: center;
 }
 .main2 h2{
     font-family: Arial, sans-serif;
@@ -324,7 +326,7 @@ main{
 .item_skills3 p{
     float: left;
     height: 20px;
-    width: 900px;
+    width: 700px;
     line-height: 20px;
     text-align: left;
     margin: 10px 0px 0px 150px;
