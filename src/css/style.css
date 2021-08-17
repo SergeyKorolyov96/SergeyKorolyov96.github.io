@@ -61,8 +61,8 @@ main{
 .title__container{
     float: left;
     color: #2c384a;
-    margin: 200px 0px 0px 0px;
     text-align: center;
+    width: 70%;
     opacity: 0;
     -webkit-animation: titlemove 1s ease forwards;
     -o-animation: titlemove 1s ease forwards;
@@ -242,7 +242,7 @@ main{
 .main2{
     height: 100%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 30%/ 71px 5px no-repeat, url("../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg") center/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 25%/ 71px 5px no-repeat, url("../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg") center/cover no-repeat;
 }
 .row3{
     display: inline-flex;
@@ -253,112 +253,98 @@ main{
     text-align: center;
     font-size: 30px;
     color: #263244;
-    padding: 100px 0px 0px 0px;
     font-weight: 600;
 }
-.item_skills{
-    float: left;
-    height: 150px;
-    width: 200px;
-    text-align: center;
-    justify-content: space-around;
-}
-.item_skills img{
+
+.main2 img{
     height: 50px;
     width: 60px;
+
 }
-.item_skills h4{
+.main2 h4{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 20px;
     color: #cf7600;
-    padding: 30px 0px 0px 0px;
     font-weight: 600;
+    margin: 30px 0px;
 }
 .item_skills p{
-    float: left;
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 16px;
     color: #263244;
-    margin: 20px;
     width: 150px;
 }
+
 .main3{
-    height: 900px;
+    height: 950px;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 13%/ 71px 5px no-repeat, url("../img/%D1%84%D0%BE%D1%82%D0%BA%D0%B0.png") 50% 45% no-repeat, url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%205.png") left/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 12%/ 71px 5px no-repeat,  url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%205.png") left/cover no-repeat;
 }
 .main3 h2{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     color: #263244;
-    padding: 50px 0px 0px 0px;
+    padding-top: 50px;
     font-weight: 600;
 }
 .main3 p{
-    height: 100%;
-    width: 600px;
-    margin: 70px 0px 50px 510px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #263244;
+}
+.text-center img{
+    height: 50%;
+    width: 75%;
+    margin-top: 20px;
 }
 
-.item_skills1{
-    height: 50px;
-    width: 300px;
-    text-align: left;
-    margin: 550px 0px 0px 90px;
-}
-
-.item_skills2{
-    height: 50px;
-    width: 200px;
-    text-align: left;
-    margin: 20px 0px 0px 90px;
-}
-.item_skills3{
-    float: left;
-    height: 20px;
-    width: 250px;
-    text-align: left;
-    margin: -100px 0px 0px 400px;
-}
-.item_skills3 p{
-    float: left;
+.col1 p{
+    float: center;
     height: 20px;
     width: 700px;
     line-height: 20px;
     text-align: left;
-    margin: 10px 0px 0px 150px;
+    margin: 10px 0px 0px 0px;
 }
-.item_skills1 h3{
+.col2 p{
+    float: center;
+    height: 20px;
+    width: 100px;
+    line-height: 20px;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+.col3 p{
+    float: center;
+    height: 20px;
+    width: 700px;
+    line-height: 20px;
+    text-align: left;
+    margin: 10px 0px 0px 0px;
+}
+.main3 h3{
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: #263244;
-    margin: 0px 0px 10px 160px;
+    margin: 0px 0px 10px 0px;
     font-weight: 500;
 }
-.item_skills2 h3{
-    font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: #263244;
-    margin: 0px 0px 10px 160px;
-    font-weight: 500;
-}
-.main3 p1{
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    color: #263244;
-    margin: 0px 0px 0px 160px;
 
-}
 .main3 h4{
     width: 200px;
     font-family: Arial, sans-serif;
     font-size: 18px;
     color: #263244;
-    margin: -20px 0px 0px 150px;
+    margin: 0px 0px 0px 0px;
     font-weight: 500;
+}
+.col3 h4{
+    display: block;
+    margin-top: -125px;
 }
 .main3 input{
     display: block;
@@ -368,15 +354,15 @@ main{
     font-weight: 600;
     text-align: center;
     border: 2px solid #6f707e;
-    margin: 30px 0px 0px 250px;
+    margin-left: 200px;
+    margin-top: 100px;
     border-radius: 5px;
     padding: 5px 40px;
     color: white;
     font-size: 20px;
     background-color: #63b5ae; 
     transition: all 0.2s;
-    transform: scale(1)
-    background: url("../img/%D0%9F%D1%80%D1%8F%D0%BC%D0%BE%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA,%20%D1%81%D0%BA%D1%80%D1%83%D0%B3%D0%BB.%20%D1%83%D0%B3%D0%BB%D1%8B%204.png") 100%/cover no-repeat;
+    transform: scale(1);
 }
 .main3 input:hover{
     background: #dd8654;
@@ -386,7 +372,7 @@ main{
     transform: scale(1.1);
 }
 .main4{
-    height: 850px;
+    height: 100%;
     width: 100%;
     background: url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png") left/cover no-repeat;
 }
@@ -396,23 +382,21 @@ main{
     font-size: 30px;
     color: #263244;
     font-weight: 600;
-    padding: 70px;
-    margin: 100px 0px 50px 0px;
+    padding-top: 50px;
 }
 .main4 h3{
     font-family: Arial, sans-serif;
     text-align: left;
-    margin: 30px 0px 30px 300px;
+    margin: 30px 0px 30px 0px;
     font-size: 20px;
     color: #263244;
     font-weight: 600;
 }
 .main4 select{
     height: 50px;
-    width: 800px;
+    width: 100%;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 0px 300px;0px 0px;
     background-color: #eeeeee;
     
 }
@@ -429,33 +413,33 @@ main{
     padding: 100px 0px 0px 0px;
     font-weight: 600;
 }
-.item-skills{
+.col{
     float: left;
     height: 200px;
     width: 210px;
     text-align: center;
-    margin: 200px 0px 0px 100px;
+    margin-top: 200px;
 }
-.item-skills img{
+.col img{
     height: 50px;
     width: 60px;
     margin: 40px;
 }
-.item-skills h3{
+.col h3{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     color: #323e4f;
-    padding: 30px 0px 30px 0px;
     font-weight: 800;
 }
-.item-skills p{
+.col p{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 20px;
     color: #323e4f;
     padding: 0px 0px 0px 0px;
 }
+
 .main6 {
     height: 100%;
     width: 100%;
