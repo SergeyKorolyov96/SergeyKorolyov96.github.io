@@ -195,13 +195,11 @@ main{
 .main1{
     height: 100%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 20%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg") left/cover no-repeat;
-}
-.row2{
-    text-align: center;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 10%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg") left/cover no-repeat;
 }
 .main1 h2{
     font-family: Arial, sans-serif;
+    text-align: center;
     font-size: 30px;
     color: #263244;
     font-weight: 600;
@@ -211,13 +209,12 @@ main{
     border-radius: 50%;
     height: 180px;
     width: 180px;
-    margin: 100px 0px 0px 0px;
+
 }
 .main1 p{
     text-align: center;
     font-size: 15px;
     color: #3f495a;
-    margin: 0px 0px 0px 50px;
 }
 .main1 input{
     height: 40px;
@@ -242,11 +239,7 @@ main{
 .main2{
     height: 100%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 25%/ 71px 5px no-repeat, url("../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg") center/cover no-repeat;
-}
-.row3{
-    display: inline-flex;
-    text-align: center;
+    background:  url("../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.jpg") center/cover no-repeat;
 }
 .main2 h2{
     font-family: Arial, sans-serif;
@@ -259,92 +252,94 @@ main{
 .main2 img{
     height: 50px;
     width: 60px;
-
 }
+.row2 img{
+    height: 5px;
+    width: 71px;
+}
+
 .main2 h4{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #cf7600;
     font-weight: 600;
-    margin: 30px 0px;
 }
-.item_skills p{
+.main2 p{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: #263244;
     width: 150px;
 }
-
 .main3{
-    height: 950px;
+    height: 900px;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 12%/ 71px 5px no-repeat,  url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%205.png") left/cover no-repeat;
+    background: url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%205.png") left/cover no-repeat;
 }
 .main3 h2{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     color: #263244;
-    padding-top: 50px;
     font-weight: 600;
 }
-.main3 p{
-    margin-top: 50px;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    color: #263244;
+.main3 img{
+    height: 40%;
+    width: 70%;
 }
-.text-center img{
-    height: 50%;
-    width: 75%;
-    margin-top: 20px;
+.main3 p{
+    height: 100%;
+    width: 600px;
+
+}
+.row2 img{
+    height: 5px;
+    width: 71px;
 }
 
-.col1 p{
-    float: center;
+.col{
+    height: 50px;
+    width: 300px;
+    text-align: left;
+
+}
+
+.row p{
+    float: left;
     height: 20px;
     width: 700px;
     line-height: 20px;
     text-align: left;
-    margin: 10px 0px 0px 0px;
+
 }
-.col2 p{
-    float: center;
-    height: 20px;
-    width: 100px;
-    line-height: 20px;
-    text-align: left;
-    margin: 10px 0px 0px 0px;
-}
-.col3 p{
-    float: center;
-    height: 20px;
-    width: 700px;
-    line-height: 20px;
-    text-align: left;
-    margin: 10px 0px 0px 0px;
-}
-.main3 h3{
+.row h3{
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: #263244;
-    margin: 0px 0px 10px 0px;
     font-weight: 500;
 }
+.row h3{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #263244;
+    font-weight: 500;
+}
+.main3 p{
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #263244;
 
+}
+.col1{
+    float: left;
+}
 .main3 h4{
     width: 200px;
     font-family: Arial, sans-serif;
     font-size: 18px;
     color: #263244;
-    margin: 0px 0px 0px 0px;
     font-weight: 500;
-}
-.col3 h4{
-    display: block;
-    margin-top: -125px;
 }
 .main3 input{
     display: block;
@@ -354,15 +349,13 @@ main{
     font-weight: 600;
     text-align: center;
     border: 2px solid #6f707e;
-    margin-left: 200px;
-    margin-top: 100px;
     border-radius: 5px;
     padding: 5px 40px;
     color: white;
     font-size: 20px;
     background-color: #63b5ae; 
     transition: all 0.2s;
-    transform: scale(1);
+    transform: scale(1)
 }
 .main3 input:hover{
     background: #dd8654;
@@ -382,12 +375,10 @@ main{
     font-size: 30px;
     color: #263244;
     font-weight: 600;
-    padding-top: 50px;
 }
 .main4 h3{
     font-family: Arial, sans-serif;
     text-align: left;
-    margin: 30px 0px 30px 0px;
     font-size: 20px;
     color: #263244;
     font-weight: 600;
@@ -398,32 +389,51 @@ main{
     font-family: Arial, sans-serif;
     text-align: center;
     background-color: #eeeeee;
-    
+}
+.main4 input{
+    display: block;
+    float: left;
+    font-family: Arial, sans-serif;
+    height: 40px;
+    font-weight: 600;
+    text-align: center;
+    border: 2px solid #6f707e;
+    border-radius: 5px;
+    padding: 5px 40px;
+    color: white;
+    font-size: 20px;
+    background-color: #63b5ae; 
+    transition: all 0.2s;
+    transform: scale(1)
+}
+.main4 input:hover{
+    background: #dd8654;
+    color: white;
+}
+.main4 input:active{
+    transform: scale(1.1);
 }
 .main5 {
     height: 100%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 25%/ 71px 5px no-repeat, url("../img/%D1%84%D0%BE%D0%BD%202.png") center/cover fixed no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 15%/ 71px 5px no-repeat, url("../img/%D1%84%D0%BE%D0%BD%202.png") center/cover fixed no-repeat;
 }
 .main5 h2{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     color: #263244;
-    padding: 100px 0px 0px 0px;
     font-weight: 600;
 }
-.col{
+.col {
     float: left;
     height: 200px;
     width: 210px;
     text-align: center;
-    margin-top: 200px;
 }
 .col img{
     height: 50px;
     width: 60px;
-    margin: 40px;
 }
 .col h3{
     font-family: Arial, sans-serif;
@@ -437,9 +447,7 @@ main{
     text-align: center;
     font-size: 20px;
     color: #323e4f;
-    padding: 0px 0px 0px 0px;
 }
-
 .main6 {
     height: 100%;
     width: 100%;
@@ -452,171 +460,139 @@ main{
     font-size: 30px;
     color: #263244;
     font-weight: 600;
-    margin: 70px 0px 0px 650px;
 }
 .main6 img{
     border: 1px solid none;
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin: 100px 0px 30px 625px;
 }
 .main6 p{
     float: left;
-    height: 100%;
-    width: 100%;
     font-size: 18px;
     text-align: center;
     color: #243042;
-    margin: 50px 0px 0px 0px;
 }
 .main6 h4{
     float: left;
-    height: 100%;
-    width: 100%;
     font-size: 18px;
     text-align: center;
     color: #243042;
-    margin: 50px 0px 0px 0px;
     font-weight: 400;
 }
 
 .input{
     height: 20px;
     width: 20px;
-    margin: 100px 0px 0px 70px;
 }
-div .five{
+
+div .click{
     display: block;
     height: 15px;
     width: 15px;
-    margin: 200px 0px 50px 650px;
-    padding: 10px 10px;
 }
-div .six{
-    display: block;
-    height: 15px;
-    width: 15px;
-    margin: -65px 0px 50px 720px;
-}
-div .seven{
-    display: block;
-    height: 15px;
-    width: 15px;
-    margin: -65px 0px 50px 790px;
-}
+
 footer{
     height: 110%;
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 16%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%209.png") center/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 15%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%209.png") center/cover no-repeat;
 }
+
 footer h2{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 30px;
     color: white;
-    margin: 50px 0px 0px 0px;
-    padding: 70px 0px 0px 0px;
 }
+
 .main7 p{
     float: left;
     height: 50px;
-    width: 800px;
+    width: 700px;
     font-size: 18px;
     text-align: center;
     color: white;
-    margin: 60px 0px 0px 330px;
 }
-.item_skills9 img{
+
+.col1 img{
     height: 30px;
     width: 30px;
-    margin: 150px 0px 30px -820px;
 }
-.item_skills9 h4{
+.col1 h4{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 18px;
     color: white;
     height: 50px;
     width: 150px;
-    margin: 0px 0px 50px 240px;;
 }
 
-.item_skills10 img{
+.col1 img{
     height: 40px;
     width: 50px;
-    margin: -165px 0px 0px 705px;
 }
 
-.item_skills10 h4{
+.col1 h4{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 18px;
     color: white;
     height: 50px;
     width: 150px;
-    margin: -115px 0px 50px 630px;;
 }
-.item_skills11 img{
+.col1 img{
     height: 40px;
     width: 50px;
-    margin: -215px 0px 0px 1115px;
+
 }
-.item_skills11 h4{
+.col1 h4{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 18px;
     color: white;
     height: 50px;
     width: 150px;
-    margin: -165px 0px 50px 1070px;;
+
 }
-.item_skills12 h3{
+.col1 h3{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 25px;
     color: white;
-    margin: -150px 0px 0px 20px;
+
 }
 .main7 input{
     display: block;
     height: 50px;
     width: 200;
-    margin: 50px 100px;
+
 }
 form .first{
     display: block;
     font-family: Arial, sans-serif;
     height: 40px;
     width: 400px;
-    margin: 20px 0px 0px 250px;
     font-size: 16px;
-    padding: 10px 0px 10px 20px;
 }
 form .two{
     display: block;
     font-family: Arial, sans-serif;
     height: 40px;
     width: 400px;
-    margin: -40px 0px 0px 800px;
     font-size: 16px;
-    padding: 10px 0px 10px 20px;
 }
 form .message{
     display: block;
     font-family: Arial, sans-serif;
     height: 150px;
-    width: 950px;
-    margin: 20px 0px 0px 250px;
+    width: 843px;
     font-size: 16px;
-    padding: 10px 0px 10px 20px;
 }
 form .send{
     display: block;
     font-family: Arial, sans-serif;
     height: 40px;
     width: 200px;
-    margin: 30px 0px 0px 625px;
     border-radius: 5px;
     background: none;
     color: white;
