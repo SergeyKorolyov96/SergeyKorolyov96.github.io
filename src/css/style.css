@@ -258,14 +258,12 @@ main{
     font-size: 14px;
     color: #cf7600;
     font-weight: 600;
-    width: 200px;
 }
 .main2 p{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 14px;
     color: #263244;
-    width: 200px;
 }
 .main3{
     width: 100%;
@@ -494,8 +492,6 @@ main{
     text-align: center;
     font-size: 13px;
     color: white;
-    height: 50px;
-    width: 150px;
 }
 
 .col1 h3{
