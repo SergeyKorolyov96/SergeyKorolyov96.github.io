@@ -194,20 +194,20 @@ main{
 
 .main1{
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 15%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg") left/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 20%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BB%D0%BE%D0%B9.jpg") left/cover no-repeat;
 }
 .main1 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
 .main1 img{
     border: 1px solid none;
     border-radius: 50%;
-    height: 170px;
-    width: 170px;
+    height: 200px;
+    width: 200px;
 
 }
 .main1 p1{
@@ -242,7 +242,7 @@ main{
 .main2 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
@@ -272,7 +272,7 @@ main{
 .main3 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
@@ -367,7 +367,7 @@ main{
 .main4 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
@@ -386,8 +386,6 @@ main{
     background-color: #eeeeee;
 }
 .main4 input{
-    display: block;
-    float: left;
     font-family: Arial, sans-serif;
     height: 40px;
     font-weight: 600;
@@ -415,7 +413,7 @@ main{
 .main5 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
@@ -436,12 +434,12 @@ main{
 }
 .main6 {
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 20%/ 71px 5px no-repeat, url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png") center/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 15%/ 71px 5px no-repeat, url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png") center/cover no-repeat;
 }
 .main6 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
@@ -465,19 +463,18 @@ main{
 
 .main7{
     width: 100%;
-    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 10%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%209.png") center/cover no-repeat;
+    background: url("../img/%D0%A7%D0%B5%D1%80%D1%82%D0%B0%20%D0%B7%D0%B0%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BA%D0%B0.jpg") 50% 15%/ 71px 5px no-repeat, url("../img/%D0%A4%D0%BE%D0%BD%209.png") center/cover no-repeat;
 }
 
 .main7 h2{
     font-family: Arial, sans-serif;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
 }
 
 .main7 p{
     height: 50px;
-    width: 700px;
     font-size: 13px;
     text-align: center;
     color: white;
@@ -494,7 +491,7 @@ main{
     color: white;
 }
 
-.col1 h3{
+.main7 h3{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 16px;
@@ -504,28 +501,35 @@ main{
 .main7 input{
     display: block;
     height: 50px;
-    width: 200;
+    width: 100%;
+
+}
+.main7 textarea{
+    display: block;
+    height: 100px;
+    width: 100%;
+
+}
+.main7 send{
+    height: 50px;
 
 }
 form .first{
     display: block;
     font-family: Arial, sans-serif;
     height: 35px;
-    width: 400px;
     font-size: 16px;
 }
 form .two{
     display: block;
     font-family: Arial, sans-serif;
     height: 35px;
-    width: 400px;
     font-size: 16px;
 }
 form .message{
     display: block;
     font-family: Arial, sans-serif;
     height: 100px;
-    width: 843px;
     font-size: 16px;
 }
 form .send{
