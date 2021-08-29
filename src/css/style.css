@@ -512,7 +512,7 @@ main{
 }
 .main7 send{
     height: 50px;
-
+    margin: 0 auto;
 }
 form .first{
     display: block;
