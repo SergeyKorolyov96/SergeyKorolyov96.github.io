@@ -173,7 +173,7 @@
     </section>
     
     
-    <section class="main4"><div class="title__container4">
+    <section class="calc"><div class="title__container4">
       <div class="row justify-content-center">
        <div class="col-sm-4 align-items-center mt-5">
         <h2>РАСЧЕТ СТОИМОСТИ</h2></div></div>
@@ -182,39 +182,41 @@
         <div class="col-sm-3 offset-sm-2 align-items-center mt-5">
         <h3>ТИП САЙТА</h3></div></div>
         <div class="row justify-content-center">
-        <div class="col-sm-8 align-items-center mt-2">
-        <select name="list1" id="list1">
-            <option value="тип сайта 1">Тип сайта 1</option>
-            <option value="тип сайта 2">Тип сайта 2</option>
-            <option value="тип сайта 3">Тип сайта 3</option>
+        <div class="Size col-sm-8 align-items-center mt-2">
+        <select onchange="calc()" id="type_services">
+            <option value="0">Выбрать</option>
+            <option value="5000">Визитка</option>
+            <option value="8000">Интернет магазин</option>
+            <option value="6000">Форум</option>
         </select></div></div>
         
         <div class="row">
         <div class="col-sm-2 offset-sm-2 align-items-center mt-5">
         <h3>ДИЗАЙН</h3></div></div>
         <div class="row justify-content-center">
-        <div class="col-sm-8 align-items-center mt-2">
-        <select name="list1" id="list2">
-            <option value="дизайн 1">Дизайн 1</option>
-            <option value="дизайн 2">Дизайн 2</option>
-            <option value="дизайн 3">Дизайн 3</option>
+        <div class="Design col-sm-8 align-items-center mt-2">
+        <select onchange="calc()" id="design">
+            <option value="0">Выбрать</option>
+            <option value="5000">Дизайн 1</option>
+            <option value="6000">Дизайн 2</option>
+            <option value="7000">Дизайн 3</option>
         </select></div></div>
         
         <div class="row">
         <div class="col-sm-3 offset-sm-2 align-items-center mt-5">
         <h3>АДАПТИВНОСТЬ</h3></div></div>
         <div class="row justify-content-center">
-        <div class="col-sm-8 align-items-center mt-2">
-        <select name="list1" id="list3">
-            <option value="адаптивность 1">Адаптивность 1</option>
-            <option value="адаптивность 2">Адаптивность 2</option>
-            <option value="адаптивность 3">Адаптивность 3</option>
+        <div class="Adapt col-sm-8 align-items-center mt-2">
+        <select onchange="calc()" id="adapt">
+            <option value="0">Выбрать</option>
+            <option value="8000">С адаптивностью</option>
+            <option value="0">Без адаптивности</option>
         </select></div></div>
         
         <div class="row">
         <div class="col-sm-3 offset-sm-2 align-items-center mt-3">
         <h3>Сроки</h3>
-        <h3>Стоимость</h3>
+        <h3><b>Стоимость: <span id="result">0</span></b> руб</h3>
     </div></div>
     <div class="row justify-content-center">
         <div class="col-sm-4  col-12 align-items-center py-5 text-center">
@@ -318,11 +320,12 @@
             <div class="col-sm-8 col-12 offset-sm-2 align-items-center mt-3">
             <textarea class="message" name="" id="1" cols="30" rows="10" placeholder="Сообщение">
             </textarea></div></div>
-            <div class="row">
-            <div class="col-sm-2 col-12 align-items-center py-5 text-center">
-            <input class="send" type="reset" value="Отправить"></div></div>
+            <div class="row justify-content-center">
+            <div class="col-6 align-items-center py-5 text-center">
+            <input class="send mx-auto" type="reset" value="Отправить"></div></div>
         </form>
     </div></footer>
+    <script src="js/myScript.js"></script>
    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
