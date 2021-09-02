@@ -1,13 +1,14 @@
 "use strict"
-function calc(){
-    let type_services = document.getElementById("type_services");
-    let design = document.getElementById("design");
-    let adapt = document.getElementById("adapt");
-    let result = document.getElementById("result");
-    let price = 0;
-    price += parseInt(type_services.options[type_services.selectedIndex].value);
-    price += (design.checked == true) ? parseInt(design.value) : 0;
-    price = parseInt(adapt.value) * price;
-    result.innerHTML = price;
+if(confirm("Добро пожаловать!")){
+    name = prompt("Как вас зовут?");
+    alert("Привет, " + name);
 }
-console.log('calc');
+else{
+    alert("Вы нажали на <Отмена>");
+}
+prompt("Какой тип сайта нужен?");
+    
+
+
+alert("Будет сделано!");
+    
