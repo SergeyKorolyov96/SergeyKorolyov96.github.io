@@ -1,5 +1,5 @@
 "use strict"
-let price = 0;
+/*let price = 0;
 let days = 0;
 alert("Добро пожаловать!");
 let variableOne = prompt(`Введите цифру нужного вам сайта:
@@ -41,3 +41,70 @@ if(variableThree == "2"){
     alert("Нет (цена 0 руб, срок 0 дней)")
 };
 console.log(price, days);
+alert("Общая стоимость: " + price + " Сроки: " + days);
+*/
+
+$(document).ready(function(){
+    
+//блюр картинки//
+    let options = {threshold: [0.5]};
+    let observer = new IntersectionObserver(onEntry, option);
+    let elemets = $(`.photo`);
+    elemets.each((i, el) => {
+    });
+function onEntry (entry){
+    entry forEach(change => {
+        if(change. isIntersecting){
+            change
+            change.target.src = change.targetdataset.src;
+        }
+    });
+}
+//Бегущие цифры//
+$(`.num`).each(function(){
+    $(this).prop(`Counter`, 0),animate({
+        Counter:$(this).text()
+    },{
+        duration: 4000,
+        easing: `swing`,
+        step:function(now){
+        $(this).text(Math.ceil(now));
+    }
+    });
+});
+    
+//Отступ сверху//
+$(`a[href^="#"]`).click(function(){
+    let valHref = $(this).attr("href");
+    $(`html, body`).animate({scrollTop:$(valHref).offset().top - 50 + "px"});
+});
+
+//Таймер на модальное окно//
+setTimeout(function(){
+    $.modalDialog({
+    width: 350,
+    height: 150
+    })
+}, 2000);
+    
+//Выделение//
+$(window).scroll(() => {
+    let scrollDistance = $(window).scrollTop();
+    $("section").each((i, el) => {
+        if($(el).offset().top - $("nav").outerHeight() <= scrollDistance){
+            $("nav a").each((i, el) => {
+                if($(el).hasClass("active")){
+                    $(el).removeClass("active");
+                }
+            });
+            $(`nav li:eq(`+ i +`)`).find(`a`).addClass(`active`);
+        }
+    });
+});
+});
+
+//Зум картинки//
+$(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
+
