@@ -47,7 +47,7 @@ alert("Общая стоимость: " + price + " Сроки: " + days);
 $(document).ready(function(){
     
 //блюр картинки//
-    let options = {threshold: [0.5]};
+    let option = {threshold: [1]};
     let observer = new IntersectionObserver(onEntry, option);
     let elemets = $(`.photo`);
     elemets.each((i, el) => {
