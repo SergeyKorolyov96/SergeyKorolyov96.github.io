@@ -51,12 +51,13 @@ $(document).ready(function(){
     let observer = new IntersectionObserver(onEntry, option);
     let elemets = $(`.photo`);
     elemets.each((i, el) => {
+        observer.observe(el);
     });
+    
 function onEntry (entry){
-    entry forEach(change => {
-        if(change. isIntersecting){
-            change
-            change.target.src = change.targetdataset.src;
+    entry.forEach(change => {
+        if(change.isIntersecting){
+            change.target.src = change.target.dataset.src;
         }
     });
 }
