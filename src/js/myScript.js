@@ -63,8 +63,8 @@ function onEntry (entry){
 }
 //Бегущие цифры//
 $(`.num`).each(function(){
-    $(this).prop(`Counter`, 0),animate({
-        Counter:$(this).text()
+    $(this).prop(`counter`, 0),animate({
+        counter:$(this).text()
     },{
         duration: 4000,
         easing: `swing`,
