@@ -63,7 +63,7 @@ function onEntry (entry){
 }
 //Бегущие цифры//
 $(`.num`).each(function(){
-    $(this).prop(`counter`, 0),animate({
+    $(this).prop(`counter`, 0).animate({
         counter:$(this).text()
     },{
         duration: 4000,
@@ -82,11 +82,13 @@ $(`a[href^="#"]`).click(function(){
 
 //Таймер на модальное окно//
 setTimeout(function(){
-    $.modalDialog({
+  $.colorbox({
+    html:"<h2>Оставьте Email и получит скидку</h2>",
+    className: "cta",
     width: 350,
     height: 150
-    })
-}, 2000);
+  });
+}, 1000);
     
 //Выделение//
 $(window).scroll(() => {

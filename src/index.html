@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jackmoore/colorbox/master/example1/colorbox.css" />
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -86,28 +87,14 @@
    </div></div></div></div>
       </section>
     
-       <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Хочешь скидку?
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Введи Email и получи скидку!</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <textarea name="" id="" cols="65" rows="2"></textarea>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
-        <button type="button" class="btn btn-primary">Отправить</button>
-      </div>
-    </div>
-  </div>
+
+<div id="modal-content">
+  <h2>Желаешь скидку?</h2>
+  <label for="yurEmail">Введи свой Email:</label>
+  <textarea name="" id="modal" cols="30" rows="10"></textarea>
+  <input placeholder="Писать тут ..." id="yurEmail">
+  <button class="button order-cheezburger">Подписаться</button>
 </div>
     
     <section class="main1" id="aboutMe"><div class="container">
@@ -265,7 +252,7 @@
         <div class="col-sm-1 align-items-center mt-5 text-center mb-5 counter">
             <img src="img/%D1%81%D0%BA%D0%BE%D0%B1%D0%BA%D0%B8.png" alt="Изображение">
             <div class="">
-            <h3 class="num">4,600</h3>
+            <h3 class="num">4600</h3>
             <div class="">
             <p>Часов работы</p>
         </div></div></div>
@@ -402,6 +389,7 @@
         </form>
     </div></section>
     <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.rawgit.com/jackmoore/colorbox/master/jquery.colorbox-min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/myScript.js"></script>
