@@ -83,8 +83,8 @@ $(`a[href^="#"]`).click(function(){
 //Таймер на модальное окно//
 setTimeout(function(){
   $.colorbox({
-    html:"<h2>Оставьте Email и получит скидку</h2>",
-    className: "cta",
+    html:`<h2>Желаешь скидку?</h2>`,
+    className: `cta`,
     width: 350,
     height: 150
   });
