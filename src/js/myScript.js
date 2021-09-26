@@ -84,6 +84,9 @@ $(`a[href^="#"]`).click(function(){
 setTimeout(function(){
   $.colorbox({
     html:`<h2>Желаешь скидку?</h2>`,
+    label:`<label>Введи свой Email:</label>`,
+    input: `<input placeholder="Писать тут ..." id="yurEmail">`,
+    button:`<button>Подписаться</button>`,
     className: `cta`,
     width: 350,
     height: 150
