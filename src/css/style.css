@@ -198,13 +198,24 @@ main{
 
 #modal-content label {
   display: block;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
 }
 
 #modal-content input {
   width: 95%;
 }
-
+#modal-content h2{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+#modal-content buttom{
+    float: left;
+    font-family: Arial, sans-serif;
+    transition: all 0.2s;
+    transform: scale(1);
+    
+}
 
 .main1{
     width: 100%;
