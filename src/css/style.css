@@ -192,24 +192,21 @@ main{
     transform: scale(1.1);
 }
 
-#modal-content {
-  display: none;
-}
 
-#modal-content label {
+.colorbox label {
   display: block;
   margin-top: 20px;
   font-family: Arial, sans-serif;
 }
 
-#modal-content input {
+.colorbox input {
   width: 95%;
 }
-#modal-content h2{
+.colorbox h2{
     font-family: Arial, sans-serif;
     font-size: 25px;
 }
-#modal-content buttom{
+.colorbox buttom{
     float: left;
     font-family: Arial, sans-serif;
     transition: all 0.2s;
