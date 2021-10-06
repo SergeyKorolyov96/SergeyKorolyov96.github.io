@@ -83,14 +83,13 @@ $(`a[href^="#"]`).click(function(){
 //Таймер на модальное окно//
 setTimeout(function(){
   $.colorbox({
-    el.classList.add("h2"),
-    html:`<h2>Желаешь скидку?</h2>
-    <label>Введи свой Email:</label>
+    html:`<h2 class="h2">Желаешь скидку?</h2>
+    <label class="label">Введи свой Email:</label>
     <input placeholder="Писать тут ..." id="yurEmail">
-    <button>Отправить</button>`,
+    <button class="button" type="submit">Отправить</button>`,
     className: `cta`,
     width: 400,
-    height: 200
+    height: 180
   });
 }, 1000);
     
