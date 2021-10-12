@@ -91,6 +91,7 @@ setTimeout(function(){
     width: 400,
     height: 180
   });
+    $("button").css("visibility", "hidden");
 }, 1000);
     
 //Выделение//
