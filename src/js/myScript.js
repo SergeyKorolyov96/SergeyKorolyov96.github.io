@@ -91,8 +91,8 @@ setTimeout(function(){
     width: 400,
     height: 180
   });
-    $("colorbox").click(function(){
-        $("button").css("visibility", "hidden");
+    $("button").click(function(){
+        $("#colorbox").css("visibility", "hidden");
     });
 }, 1000);
     
