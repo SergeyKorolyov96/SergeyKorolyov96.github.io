@@ -92,7 +92,10 @@ setTimeout(function(){
     height: 180
   });
     $("button").click(function(){
-        $("#colorbox").css("visibility", "hidden");
+     $("#colorbox").css("visibility", "hidden");
+    });
+    $("button").click(function(){
+        $(".cta").css("visibility", "hidden");
     });
 }, 1000);
     
