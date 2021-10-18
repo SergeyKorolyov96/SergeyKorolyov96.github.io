@@ -105,7 +105,42 @@ setTimeout(function(){
     //Калькулятор//
     $("select").on("change", function(){
         calc();
-    function calc(){
+        
+    var typeServices,
+        design,
+        adapt,
+        result,
+        result2;
+        
+        result = $(`#result`);
+        result2 = $(`#result2`);
+        
+        result = 0;
+        result2 = 0;
+        
+        function calc(){
+            price = parseInt( $(`option[name=type]:checked`,`#price`).val());
+            price += parseInt($(`option[name=design]:checked`,`#price`).val());
+            price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
+            
+            price.text(result);
+        };
+        
+        $(`#price option`).on(`change`, function(){
+            calc();
+        });
+        
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+    /*function calc(){
     let type_services = document.getElementById("type_services");
     let design = document.getElementById("design");
     let adapt = document.getElementById("adapt");
@@ -115,7 +150,7 @@ setTimeout(function(){
     price += (design.checked == true) ? parseInt(design.value) : 0;
     price = parseInt(adapt.value) * price;
     result.innerHTML = price;
-};
+};*/
     });
     
 //Выделение//
