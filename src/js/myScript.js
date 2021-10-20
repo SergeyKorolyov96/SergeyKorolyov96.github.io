@@ -81,7 +81,7 @@ $(`a[href^="#"]`).click(function(){
 });
 
 //Таймер на модальное окно//
-setTimeout(function(){
+/*setTimeout(function(){
   $.colorbox({
     html:`<h2 class="h2">Желаешь скидку?</h2>
     <label class="label">Введи свой Email:</label>
@@ -97,7 +97,7 @@ setTimeout(function(){
     $("button").click(function(){
         $(".cta").css("visibility", "hidden");
     });
-}, 1000);
+}, 1000);*/
 
     
     
@@ -105,52 +105,42 @@ setTimeout(function(){
     //Калькулятор//
     $("select").on("change", function(){
         calc();
+     
+        
         
     var typeServices,
         design,
         adapt,
+        price,
         result,
-        result2;
+        result2,
+        modalResult,
+        modalResult2;
         
-        result = $(`#result`);
-        result2 = $(`#result2`);
+        modalResult = $(`#result`);
+        modalResult2 = $(`#result2`);
         
-        result = 0;
-        result2 = 0;
+        modalResult = 0;
+        modalResult2 = 0;
         
         function calc(){
             price = parseInt( $(`option[name=type]:checked`,`#price`).val());
             price += parseInt($(`option[name=design]:checked`,`#price`).val());
             price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
             
-            price.text(result);
+            alert(price);
+
+
+            
         };
         
         $(`#price option`).on(`change`, function(){
-            calc();
+         calc();
         });
         
+ 
         
-        
-
-        
-        
-        
-        
-        
-        
-        
-    /*function calc(){
-    let type_services = document.getElementById("type_services");
-    let design = document.getElementById("design");
-    let adapt = document.getElementById("adapt");
-    let result = document.getElementById("result");
-    let price = 0;
-    price += parseInt(type_services.options[type_services.selectedIndex].value);
-    price += (design.checked == true) ? parseInt(design.value) : 0;
-    price = parseInt(adapt.value) * price;
-    result.innerHTML = price;
-};*/
+    
     });
     
 //Выделение//
