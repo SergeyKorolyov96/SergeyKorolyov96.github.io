@@ -102,46 +102,37 @@ $(`a[href^="#"]`).click(function(){
     
     
     
-    //Калькулятор//
-    $("select").on("change", function(){
-        calc();
-     
-        
-        
-    var typeServices,
-        design,
-        adapt,
-        price,
-        result,
-        result2,
-        modalResult,
-        modalResult2;
-        
-        modalResult = $(`#result`);
-        modalResult2 = $(`#result2`);
-        
-        modalResult = 0;
-        modalResult2 = 0;
-        
-        function calc(){
-            price = parseInt( $(`option[name=type]:checked`,`#price`).val());
-            price += parseInt($(`option[name=design]:checked`,`#price`).val());
-            price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
-            
-            alert(price);
-
-
-            
-        };
-        
-        $(`#price option`).on(`change`, function(){
-         calc();
-        });
-        
- 
-        
+//Калькулятор//
     
-    });
+var typeServices,
+    design,
+    adapt,
+    price,
+    result,
+    result2,
+    modalResult,
+    modalResult2;
+
+    modalResult = $(`#result`);
+    modalResult2 = $(`#result2`);
+
+    modalResult = 0;
+    modalResult2 = 0;
+
+function calc(){
+    price = parseInt($(`option[name=type]:checked`,`#price`).val());
+    price += parseInt($(`option[name=design]:checked`,`#price`).val());
+    price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
+    
+    alert(price);
+
+    };
+
+$("select").on("change", function(){
+calc();
+
+
+});
     
 //Выделение//
 $(window).scroll(() => {

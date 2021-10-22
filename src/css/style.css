@@ -401,25 +401,25 @@ main{
 .main3 input:active{
     transform: scale(1.1);
 }
-.calc{
+.calculate{
     width: 100%;
     background: url("../img/%D0%A1%D0%BB%D0%BE%D0%B9%202.png") left/cover no-repeat;
 }
-.calc h2{
+.calculate h2{
     font-family: Arial, sans-serif;
     text-align: center;
     font-size: 25px;
     color: #263244;
     font-weight: 600;
 }
-.calc h3{
+.calculate h3{
     font-family: Arial, sans-serif;
     text-align: left;
     font-size: 20px;
     color: #263244;
     font-weight: 600;
 }
-.calc select{
+.calculate select{
     height: 50px;
     width: 100%;
     font-family: Arial, sans-serif;
@@ -427,7 +427,7 @@ main{
     background-color: #eeeeee;
 }
 
-.calc input{
+.calculate input{
     font-family: Arial, sans-serif;
     height: 40px;
     font-weight: 600;
@@ -441,11 +441,11 @@ main{
     transition: all 0.2s;
     transform: scale(1)
 }
-.calc input:hover{
+.calculate input:hover{
     background: #dd8654;
     color: white;
 }
-.calc input:active{
+.calculate input:active{
     transform: scale(1.1);
 }
 .main5 {
