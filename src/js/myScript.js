@@ -124,7 +124,8 @@ function calc(){
     price += parseInt($(`option[name=design]:checked`,`#price`).val());
     price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
     
-    alert(price);
+    modalResult.text(price);
+    //alert(price);
 
     };
 
