@@ -101,7 +101,6 @@ $(`a[href^="#"]`).click(function(){
 
     
     
-    
 //Калькулятор//
     
 var typeServices,
@@ -116,7 +115,7 @@ var typeServices,
     modalResult = $(`#result`);
     modalResult2 = $(`#result2`);
 
-    modalResult = 0;
+    modalResult = '';
     modalResult2 = 0;
 
 function calc(){
