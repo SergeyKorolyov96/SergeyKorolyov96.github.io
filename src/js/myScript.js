@@ -115,19 +115,24 @@ var typeServices,
     modalResult = $(`#result`);
     modalResult2 = $(`#result2`);
 
-    modalResult = '';
-    modalResult2 = 0;
+
 
 function calc(){
     price = parseInt($(`option[name=type]:checked`,`#price`).val());
     price += parseInt($(`option[name=design]:checked`,`#price`).val());
     price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
     
-    modalResult.text(price);
+    price1 = parseInt($(`option[name=type]:checked`,`#price`).time());
+    price1 += parseInt($(`option[name=design]:checked`,`#price`).time());
+    price1 += parseInt($(`option[name=adapt]:checked`,`#price`).time());
+    
+    modalResult.text(price1);
+    modalResult2.text(price);
     //alert(price);
 
     };
-
+$("#price").attr("time");
+  
 $("select").on("change", function(){
 calc();
 
