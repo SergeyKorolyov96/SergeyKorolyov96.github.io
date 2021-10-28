@@ -122,16 +122,19 @@ function calc(){
     price += parseInt($(`option[name=design]:checked`,`#price`).val());
     price += parseInt($(`option[name=adapt]:checked`,`#price`).val());
     
+    modalResult2.text(price);
+    //alert(price);
+    };
+    
+function time(){
     price1 = parseInt($(`option[name=type]:checked`,`#price`).time());
     price1 += parseInt($(`option[name=design]:checked`,`#price`).time());
     price1 += parseInt($(`option[name=adapt]:checked`,`#price`).time());
-    
-    modalResult.text(price1);
-    modalResult2.text(price);
-    //alert(price);
 
-    };
-$("#price").attr("time");
+    modalResult.text(price1);
+};
+
+$("select").attr("option", "time");
   
 $("select").on("change", function(){
 calc();
