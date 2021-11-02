@@ -130,8 +130,8 @@ function time(){
     var design = $("#design option:selected").attr("time");
     var adapt = $("#adapt option:selected").attr("time");   
 
-    var sum = "type, time" + "design, time" + "adapt, time"
-    
+    var sum = "type, time" + "design, time" + "adapt, time";
+
    //price1 = parseInt($(`option[#type, time]:checked`,`#price`).val());
    //price1 += parseInt($(`option[#design, time]:checked`,`#price`).val());
    //price1 += parseInt($(`option[#adapt, time]:checked`,`#price`).val());
@@ -142,7 +142,7 @@ function time(){
     modalResult.text(sum);
 };
 
-    $("select").attr("time")
+    $("select").attr("time");
 
     $("select").on("change", function(){
         calc();
