@@ -130,7 +130,7 @@ function time(){
     var design = $("#design option:selected").attr("time");
     var adapt = $("#adapt option:selected").attr("time");   
 
-    var sum = "type" + "design" + "adapt";
+    var sum = parseInt(type) + parseInt(design) + parseInt(adapt);
 
    //price1 = parseInt($("#type option:selected",`#price`).attr("time"));
    //price1 += parseInt($("#design option:selected",`#price`).attr("time"));
