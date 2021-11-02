@@ -130,11 +130,11 @@ function time(){
     var design = $("#design option:selected").attr("time");
     var adapt = $("#adapt option:selected").attr("time");   
 
-    var sum = "type, time" + "design, time" + "adapt, time";
+    var sum = "type" + "design" + "adapt";
 
-   //price1 = parseInt($(`option[#type, time]:checked`,`#price`).val());
-   //price1 += parseInt($(`option[#design, time]:checked`,`#price`).val());
-   //price1 += parseInt($(`option[#adapt, time]:checked`,`#price`).val());
+   //price1 = parseInt($("#type option:selected",`#price`).attr("time"));
+   //price1 += parseInt($("#design option:selected",`#price`).attr("time"));
+   //price1 += parseInt($("#adapt option:selected",`#price`).attr("time"));
 
     
     //console.log("type: " + time + "design: " + time + "adapt: " + time);
