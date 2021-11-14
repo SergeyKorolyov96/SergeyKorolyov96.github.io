@@ -256,7 +256,7 @@ main{
     width: 200px;
 
 }
-.main1 p1{
+.main1 p{
     text-align: center;
     font-size: 15px;
     color: #3f495a;
@@ -351,7 +351,7 @@ main{
     font-size: 15px;
     color: #263244;
 }
-.row h3{
+.row h3{    
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: #263244;
@@ -363,13 +363,14 @@ main{
     color: #263244;
     font-weight: 500;
 }
-.main3 p1{
+.main3 .name p{
     height: 20px;
     font-family: Arial, sans-serif;
     font-size: 15px;
     color: #263244;
 }
-.main3 p1{
+
+.main3 .description p{
     height: 20px;
     font-family: Arial, sans-serif;
     font-size: 15px;
@@ -599,6 +600,10 @@ form .send:hover{
 form .send:active{
     transform: scale(1.1);
 }
+iframe{
+width:100%;
+}
+
 .loader {
     background: #000;
     background: radial-gradient(#222, #000);
