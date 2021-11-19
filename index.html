@@ -21,30 +21,58 @@
 </head>
 
 <body>
-   <!-- <div class="loader">
-	<div class="loader-inner">
-		<div class="loader-line-wrap">
-			<div class="loader-line"></div>
-		</div>
-		<div class="loader-line-wrap">
-			<div class="loader-line"></div>
-		</div>
-		<div class="loader-line-wrap">
-			<div class="loader-line"></div>
-		</div>
-		<div class="loader-line-wrap">
-			<div class="loader-line"></div>
-		</div>
-		<div class="loader-line-wrap">
-			<div class="loader-line"></div>
-		</div>
-	</div>
-</div>-->
+<!-- Preloader -->
+  <section>
+    <div id="preloader">
+      <div id="ctn-preloader" class="ctn-preloader">
+        <div class="animation-preloader">
+          <div class="spinner"></div>
+          <div class="txt-loading">
+            <span data-text-preloader="З" class="letters-loading">
+              З
+            </span>
+            
+            <span data-text-preloader="А" class="letters-loading">
+              А
+            </span>
+            
+            <span data-text-preloader="Г" class="letters-loading">
+              Г
+            </span>
+            
+            <span data-text-preloader="Р" class="letters-loading">
+              Р
+            </span>
+            
+            <span data-text-preloader="У" class="letters-loading">
+              У
+            </span>
+            
+            <span data-text-preloader="З" class="letters-loading">
+              З
+            </span>
+            
+            <span data-text-preloader="К" class="letters-loading">
+              К
+            </span>
+            
+            <span data-text-preloader="А" class="letters-loading">
+              А
+            </span>
+          </div>
+        </div>  
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+    </div>
+  </section>
+  
    <header>
+      
        <nav>
           <div class="container">
               <div class="row">
-                  <div class="col-xl-2 col-lg-3 col-7 offset-xl-1"><div class="logo">Сергей Королёв</div></div>
+                  <div class="col-xl-2 col-lg-3 col-7 offset-xl-1"><a href="index.html"><div class="logo">Сергей Королёв</div></a></div>
                   <div class="px-0 col-xl-6 col-lg-7 offset-xl-3 offset-lg-2 d-none d-lg-block"><div class="menu"><ul>
                <li><a href="#aboutMe">Обо мне</a></li>
                <li><a href="#services">Услуги</a></li>
@@ -82,17 +110,12 @@
      <div class="container h-100"><div class="row align-items-center h-100"><div class="col-lg-7">
       <div class="title__container">
        <h1>Привет<br>Я Сергей Королёв</h1>
-       <h4>Фулл стек веб-разработчик</h4>
-       <input type="button" value="Обо мне">
-       <input type="button" value="Мои работы">
+       <h4 py-3>Фулл стек веб-разработчик</h4>
+       <input type="button" value="Обо мне" href="#aboutMe">
+       <input type="button" class="btn btn-primary mx-auto" data-bs-toggle="modal" data-bs-target="#exampleModal" value="Обратная связь">
+  
    </div></div></div></div>
       </section>
-
-               <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary d-block mx-auto mt-" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Обратная связь
-</button>
-
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
@@ -153,7 +176,7 @@
    
     <section class="main1" id="aboutMe"><div class="container">
         <div class="row justify-content-center">
-        <div class="col-sm-4 align-items-center mt-5 py-5"><h2 class="wow animate__animated animate__heartBeat">ОБО МНЕ</h2></div></div>
+        <div class="col-sm-4 align-items-center py-5"><h2 class="wow animate__animated animate__heartBeat">ОБО МНЕ</h2></div></div>
         
         <div class="row justify-content-center">
         <div class="col-sm-4 col-12 align-items-center mt-5 text-center">
@@ -312,7 +335,7 @@
             <option name="type" time="0" value="0">Выбрать</option>
             <option name="type" time="5" value="5000">Визитка</option>
             <option name="type" time="8" value="8000">Интернет магазин</option>
-            <option name="type" time="6" value="6000">Форум</option>
+            <option name="type" time="6" value="6000">Корпоративный</option>
         </select></div></div>
         
         <div class="row">
@@ -466,7 +489,7 @@
         <div class="col-sm-2 align-items-center text-center py-3">
         <img src="img/%D0%B3%D0%B5%D0%BE.png" alt="Изобр">
         <div class="mt-2">
-        <h4>Экибастуз</h4>
+        <h4>Омск</h4>
         </div></div>
         
         <div class="col-sm-2 align-items-center text-center py-3">
